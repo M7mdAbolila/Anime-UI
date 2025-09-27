@@ -1,0 +1,1 @@
+// Use case for fetching a character by ID.

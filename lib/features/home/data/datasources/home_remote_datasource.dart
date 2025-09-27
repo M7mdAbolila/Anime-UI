@@ -1,0 +1,1 @@
+// Abstract class for a data source that fetches home-related data from the remote API.

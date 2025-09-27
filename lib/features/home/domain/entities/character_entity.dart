@@ -1,0 +1,1 @@
+// Entity class for a character in the anime.

@@ -1,0 +1,1 @@
+// Repository interface for the home feature.
