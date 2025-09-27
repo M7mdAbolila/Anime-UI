@@ -1,16 +1,44 @@
-# anime_ui
+﻿# Anime UI
+A Flutter showcase app that recreates a modern anime streaming home screen with polished animations, modular widgets, and consistent theming.
 
-A new Flutter project.
+## Features
+- Curated "Top Picks" carousel with animated scaling and category filtering.
+- Reusable widget library for headers, filters, cards, and bottom navigation.
+- Responsive typography and spacing powered by `flutter_screenutil`.
+- Theme palette and text styles centralized for easy customization.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## Project Structure
+```
+lib/
+  core/
+    di/                // Dependency injection setup (get_it)
+    helpers/           // Reusable helpers (spacing, extensions)
+    theming/           // Colors, text styles
+  features/
+    home/
+      data/           // Remote datasources & repositories (stubs)
+      domain/         // Entities, repositories, use cases
+      presentation/
+        pages/        // HomePage
+        widgets/      // Modular home screen components
+        models/       // Static demo data for UI
+anime_app.dart          // App entry point + ScreenUtil init
+main.dart               // Bootstraps AnimeApp
+```
 
-A few resources to get you started if this is your first Flutter project:
+## UI Preview
+Run the app and open the home screen to view:
+- Gradient hero header with tagline
+- Category chips with animated selection states
+- Horizontally scrolling featured anime cards
+- Top characters strip with circular avatars
+- Floating bottom navigation inspired by modern streaming apps
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Customization Tips
+- Update static demo content in `lib/features/home/presentation/models/home_static_data.dart`.
+- Replace placeholder assets under `assets/images/` with your preferred artwork.
+- Adjust design tokens in `lib/core/theming` to reskin the experience.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
