@@ -1,6 +1,11 @@
 ﻿# Anime UI
 A Flutter showcase app that recreates a modern anime streaming home screen with polished animations, modular widgets, and consistent theming.
 
+---
+## DEMO
+https://github.com/user-attachments/assets/e66a3af9-a5ae-4991-b2a6-e6013b7f70dd
+
+---
 ## Features
 - Curated "Top Picks" carousel with animated scaling and category filtering.
 - Reusable widget library for headers, filters, cards, and bottom navigation.
@@ -8,7 +13,7 @@ A Flutter showcase app that recreates a modern anime streaming home screen with 
 - Theme palette and text styles centralized for easy customization.
 
 
-## Project Structure
+## Project Structure (Clean Architecture)
 ```
 lib/
   core/
